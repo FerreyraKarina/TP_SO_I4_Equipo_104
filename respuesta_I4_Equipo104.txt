@@ -10,3 +10,16 @@ C- ¿Qué color de fondo tiene su página en el MASTER?
     Azul
 D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
     El de ALFA
+E- ¿Algún integrante tuvo problemas al hacer el push?
+    No hubo problemas
+F- ¿Qué problemas surgieron?
+    En el punto 16 al hacer el merge con TESTING surgio un conflicto ya que los archivos estilo.css tenian un backgroud distinto en cada rama.
+G- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución
+adoptada?
+    Editamos el archivo estilo.css dejando solo la parte de TESTING que generaba conflicto , como consecuencia quedo el backgroun en blue.
+H- ¿Qué sucede si cada uno utiliza el push -f?
+    Como todos tenemos los repositorios locales actualizados no pasa nada
+
+I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
+en DESARROLLO ?
+    Tendria que cambiar a la rama DESARROLLO y hacer un merge con la rama TESTING. 
